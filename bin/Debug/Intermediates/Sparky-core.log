@@ -1,11 +1,19 @@
-﻿Build started 8/27/2018 10:43:41 PM.
+﻿Build started 8/28/2018 11:08:32 PM.
      1>Project "C:\Users\ynsbalci\Desktop\Projects\Sparky Engine\Sparky-core\Sparky-core.vcxproj" on node 2 (Build target(s)).
      1>ClCompile:
-         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D GLEW_STATIC /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"C:\Users\ynsbalci\Desktop\Projects\Sparky Engine\bin\Debug\Intermediates\\" /Fd"C:\Users\ynsbalci\Desktop\Projects\Sparky Engine\bin\Debug\Intermediates\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt src\maths\vec3.cpp
-         vec3.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D GLEW_STATIC /D _CRT_SECURE_NO_WARNINGS /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"C:\Users\ynsbalci\Desktop\Projects\Sparky Engine\bin\Debug\Intermediates\\" /Fd"C:\Users\ynsbalci\Desktop\Projects\Sparky Engine\bin\Debug\Intermediates\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt src\graphics\shader.cpp main.cpp
+         shader.cpp
+     1>c:\users\ynsbalci\desktop\projects\sparky engine\sparky-core\src\maths\maths_func.h(10): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+         Generating Code...
+         Compiling...
+         main.cpp
+     1>c:\users\ynsbalci\desktop\projects\sparky engine\sparky-core\src\maths\maths_func.h(10): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+         Generating Code...
        Link:
-         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\ynsbalci\Desktop\Projects\Sparky Engine\bin\Debug\Sparky-core.exe" /INCREMENTAL /NOLOGO glfw3.lib glew32s.lib opengl32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"C:\Users\ynsbalci\Desktop\Projects\Sparky Engine\bin\Debug\Sparky-core.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\ynsbalci\Desktop\Projects\Sparky Engine\bin\Debug\Sparky-core.lib" /MACHINE:X86 "C:\Users\ynsbalci\Desktop\Projects\Sparky Engine\bin\Debug\Intermediates\window.obj"
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\ynsbalci\Desktop\Projects\Sparky Engine\bin\Debug\Sparky-core.exe" /INCREMENTAL /NOLOGO glfw3.lib glew32s.lib opengl32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"C:\Users\ynsbalci\Desktop\Projects\Sparky Engine\bin\Debug\Sparky-core.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\ynsbalci\Desktop\Projects\Sparky Engine\bin\Debug\Sparky-core.lib" /MACHINE:X86 "C:\Users\ynsbalci\Desktop\Projects\Sparky Engine\bin\Debug\Intermediates\shader.obj"
+         "C:\Users\ynsbalci\Desktop\Projects\Sparky Engine\bin\Debug\Intermediates\window.obj"
          "C:\Users\ynsbalci\Desktop\Projects\Sparky Engine\bin\Debug\Intermediates\main.obj"
+         "C:\Users\ynsbalci\Desktop\Projects\Sparky Engine\bin\Debug\Intermediates\mat4.obj"
          "C:\Users\ynsbalci\Desktop\Projects\Sparky Engine\bin\Debug\Intermediates\vec2.obj"
          "C:\Users\ynsbalci\Desktop\Projects\Sparky Engine\bin\Debug\Intermediates\vec3.obj"
          "C:\Users\ynsbalci\Desktop\Projects\Sparky Engine\bin\Debug\Intermediates\vec4.obj"
@@ -17,4 +25,4 @@
 
 Build succeeded.
 
-Time Elapsed 00:00:03.88
+Time Elapsed 00:00:05.11
