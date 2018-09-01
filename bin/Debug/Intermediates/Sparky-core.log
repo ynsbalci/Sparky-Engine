@@ -1,7 +1,7 @@
-﻿Build started 9/2/2018 12:14:21 AM.
-     1>Project "C:\Users\ynsbalci\Desktop\Projects\Sparky Engine\Sparky-core\Sparky-core.vcxproj" on node 2 (Build target(s)).
+﻿Build started 9/2/2018 12:19:45 AM.
+     1>Project "C:\Users\ynsbalci\Desktop\Projects\Sparky Engine\Sparky-core\Sparky-core.vcxproj" on node 2 (Rebuild target(s)).
      1>ClCompile:
-         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D GLEW_STATIC /D _CRT_SECURE_NO_WARNINGS /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"C:\Users\ynsbalci\Desktop\Projects\Sparky Engine\bin\Debug\Intermediates\\" /Fd"C:\Users\ynsbalci\Desktop\Projects\Sparky Engine\bin\Debug\Intermediates\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp src\graphics\BatchRenderer2D.cpp src\graphics\buffers\buffer.cpp src\graphics\buffers\indexbuffer.cpp src\graphics\buffers\vertexarray.cpp src\graphics\simple2drenderer.cpp src\graphics\shader.cpp src\graphics\sprite.cpp src\graphics\static_sprite.cpp src\graphics\window.cpp src\maths\mat4.cpp src\maths\vec2.cpp src\maths\vec3.cpp src\maths\vec4.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D GLEW_STATIC /D _CRT_SECURE_NO_WARNINGS /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"C:\Users\ynsbalci\Desktop\Projects\Sparky Engine\bin\Debug\Intermediates\\" /Fd"C:\Users\ynsbalci\Desktop\Projects\Sparky Engine\bin\Debug\Intermediates\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp src\graphics\BatchRenderer2D.cpp src\graphics\buffers\buffer.cpp src\graphics\buffers\indexbuffer.cpp src\graphics\buffers\vertexarray.cpp src\graphics\layers\layer.cpp src\graphics\layers\tilelayer.cpp src\graphics\simple2drenderer.cpp src\graphics\shader.cpp src\graphics\sprite.cpp src\graphics\static_sprite.cpp src\graphics\window.cpp src\maths\mat4.cpp src\maths\vec2.cpp src\maths\vec3.cpp src\maths\vec4.cpp
          vec4.cpp
          vec3.cpp
          vec2.cpp
@@ -17,6 +17,11 @@
      1>c:\users\ynsbalci\desktop\projects\sparky engine\sparky-core\src\maths\maths_func.h(10): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
          simple2drenderer.cpp
      1>c:\users\ynsbalci\desktop\projects\sparky engine\sparky-core\src\maths\maths_func.h(10): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+         tilelayer.cpp
+     1>c:\users\ynsbalci\desktop\projects\sparky engine\sparky-core\src\maths\maths_func.h(10): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+         layer.cpp
+     1>c:\users\ynsbalci\desktop\projects\sparky engine\sparky-core\src\maths\maths_func.h(10): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+     1>c:\users\ynsbalci\desktop\projects\sparky engine\sparky-core\src\graphics\layers\layer.cpp(18): warning C4018: '<': signed/unsigned mismatch
          vertexarray.cpp
      1>c:\users\ynsbalci\desktop\projects\sparky engine\sparky-core\src\graphics\buffers\vertexarray.cpp(12): warning C4018: '<': signed/unsigned mismatch
          indexbuffer.cpp
@@ -31,10 +36,8 @@
      1>c:\users\ynsbalci\desktop\projects\sparky engine\sparky-core\src\maths\maths_func.h(10): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
      1>c:\program files (x86)\windows kits\8.1\include\shared\minwindef.h(130): warning C4005: 'APIENTRY': macro redefinition
          c:\users\ynsbalci\desktop\projects\sparky engine\dependencies\glfw\include\glfw\glfw3.h(98): note: see previous definition of 'APIENTRY'
-     1>c:\users\ynsbalci\desktop\projects\sparky engine\sparky-core\main.cpp(38): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
-     1>c:\users\ynsbalci\desktop\projects\sparky engine\sparky-core\main.cpp(40): warning C4305: '+=': truncation from 'double' to 'float'
-     1>c:\users\ynsbalci\desktop\projects\sparky engine\sparky-core\main.cpp(42): warning C4305: '+=': truncation from 'double' to 'float'
-     1>c:\users\ynsbalci\desktop\projects\sparky engine\sparky-core\main.cpp(89): warning C4018: '<': signed/unsigned mismatch
+     1>c:\users\ynsbalci\desktop\projects\sparky engine\sparky-core\main.cpp(44): warning C4305: '+=': truncation from 'double' to 'float'
+     1>c:\users\ynsbalci\desktop\projects\sparky engine\sparky-core\main.cpp(46): warning C4305: '+=': truncation from 'double' to 'float'
          Generating Code...
        Link:
          C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\ynsbalci\Desktop\Projects\Sparky Engine\bin\Debug\Sparky-core.exe" /INCREMENTAL /NOLOGO glfw3.lib glew32s.lib opengl32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"C:\Users\ynsbalci\Desktop\Projects\Sparky Engine\bin\Debug\Sparky-core.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\ynsbalci\Desktop\Projects\Sparky Engine\bin\Debug\Sparky-core.lib" /MACHINE:X86 "C:\Users\ynsbalci\Desktop\Projects\Sparky Engine\bin\Debug\Intermediates\main.obj"
@@ -42,6 +45,8 @@
          "C:\Users\ynsbalci\Desktop\Projects\Sparky Engine\bin\Debug\Intermediates\buffer.obj"
          "C:\Users\ynsbalci\Desktop\Projects\Sparky Engine\bin\Debug\Intermediates\indexbuffer.obj"
          "C:\Users\ynsbalci\Desktop\Projects\Sparky Engine\bin\Debug\Intermediates\vertexarray.obj"
+         "C:\Users\ynsbalci\Desktop\Projects\Sparky Engine\bin\Debug\Intermediates\layer.obj"
+         "C:\Users\ynsbalci\Desktop\Projects\Sparky Engine\bin\Debug\Intermediates\tilelayer.obj"
          "C:\Users\ynsbalci\Desktop\Projects\Sparky Engine\bin\Debug\Intermediates\simple2drenderer.obj"
          "C:\Users\ynsbalci\Desktop\Projects\Sparky Engine\bin\Debug\Intermediates\shader.obj"
          "C:\Users\ynsbalci\Desktop\Projects\Sparky Engine\bin\Debug\Intermediates\sprite.obj"
@@ -55,8 +60,8 @@
      1>LINK : warning LNK4098: defaultlib 'LIBCMT' conflicts with use of other libs; use /NODEFAULTLIB:library
      1>glew32s.lib(glew.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'glew32s.lib(glew.obj)' or at 'C:\Users\ynsbalci\Desktop\Projects\Sparky Engine\bin\Debug\vc120.pdb'; linking object as if no debug info
          Sparky-core.vcxproj -> C:\Users\ynsbalci\Desktop\Projects\Sparky Engine\bin\Debug\Sparky-core.exe
-     1>Done Building Project "C:\Users\ynsbalci\Desktop\Projects\Sparky Engine\Sparky-core\Sparky-core.vcxproj" (Build target(s)).
+     1>Done Building Project "C:\Users\ynsbalci\Desktop\Projects\Sparky Engine\Sparky-core\Sparky-core.vcxproj" (Rebuild target(s)).
 
 Build succeeded.
 
-Time Elapsed 00:00:19.66
+Time Elapsed 00:00:26.53
