@@ -1,4 +1,4 @@
-﻿Build started 9/1/2018 9:19:17 AM.
+﻿Build started 9/2/2018 12:14:21 AM.
      1>Project "C:\Users\ynsbalci\Desktop\Projects\Sparky Engine\Sparky-core\Sparky-core.vcxproj" on node 2 (Build target(s)).
      1>ClCompile:
          C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D GLEW_STATIC /D _CRT_SECURE_NO_WARNINGS /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"C:\Users\ynsbalci\Desktop\Projects\Sparky Engine\bin\Debug\Intermediates\\" /Fd"C:\Users\ynsbalci\Desktop\Projects\Sparky Engine\bin\Debug\Intermediates\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp src\graphics\BatchRenderer2D.cpp src\graphics\buffers\buffer.cpp src\graphics\buffers\indexbuffer.cpp src\graphics\buffers\vertexarray.cpp src\graphics\simple2drenderer.cpp src\graphics\shader.cpp src\graphics\sprite.cpp src\graphics\static_sprite.cpp src\graphics\window.cpp src\maths\mat4.cpp src\maths\vec2.cpp src\maths\vec3.cpp src\maths\vec4.cpp
@@ -8,6 +8,7 @@
          mat4.cpp
      1>c:\users\ynsbalci\desktop\projects\sparky engine\sparky-core\src\maths\maths_func.h(10): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
          window.cpp
+     1>c:\users\ynsbalci\desktop\projects\sparky engine\sparky-core\src\graphics\window.cpp(50): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
          static_sprite.cpp
      1>c:\users\ynsbalci\desktop\projects\sparky engine\sparky-core\src\maths\maths_func.h(10): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
          sprite.cpp
@@ -22,12 +23,18 @@
          buffer.cpp
          BatchRenderer2D.cpp
      1>c:\users\ynsbalci\desktop\projects\sparky engine\sparky-core\src\maths\maths_func.h(10): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+     1>c:\users\ynsbalci\desktop\projects\sparky engine\sparky-core\src\graphics\batchrenderer2d.cpp(63): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+     1>c:\users\ynsbalci\desktop\projects\sparky engine\sparky-core\src\graphics\batchrenderer2d.cpp(64): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+     1>c:\users\ynsbalci\desktop\projects\sparky engine\sparky-core\src\graphics\batchrenderer2d.cpp(65): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+     1>c:\users\ynsbalci\desktop\projects\sparky engine\sparky-core\src\graphics\batchrenderer2d.cpp(66): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
          main.cpp
      1>c:\users\ynsbalci\desktop\projects\sparky engine\sparky-core\src\maths\maths_func.h(10): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+     1>c:\program files (x86)\windows kits\8.1\include\shared\minwindef.h(130): warning C4005: 'APIENTRY': macro redefinition
+         c:\users\ynsbalci\desktop\projects\sparky engine\dependencies\glfw\include\glfw\glfw3.h(98): note: see previous definition of 'APIENTRY'
      1>c:\users\ynsbalci\desktop\projects\sparky engine\sparky-core\main.cpp(38): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
      1>c:\users\ynsbalci\desktop\projects\sparky engine\sparky-core\main.cpp(40): warning C4305: '+=': truncation from 'double' to 'float'
      1>c:\users\ynsbalci\desktop\projects\sparky engine\sparky-core\main.cpp(42): warning C4305: '+=': truncation from 'double' to 'float'
-     1>c:\users\ynsbalci\desktop\projects\sparky engine\sparky-core\main.cpp(82): warning C4018: '<': signed/unsigned mismatch
+     1>c:\users\ynsbalci\desktop\projects\sparky engine\sparky-core\main.cpp(89): warning C4018: '<': signed/unsigned mismatch
          Generating Code...
        Link:
          C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\ynsbalci\Desktop\Projects\Sparky Engine\bin\Debug\Sparky-core.exe" /INCREMENTAL /NOLOGO glfw3.lib glew32s.lib opengl32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"C:\Users\ynsbalci\Desktop\Projects\Sparky Engine\bin\Debug\Sparky-core.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\ynsbalci\Desktop\Projects\Sparky Engine\bin\Debug\Sparky-core.lib" /MACHINE:X86 "C:\Users\ynsbalci\Desktop\Projects\Sparky Engine\bin\Debug\Intermediates\main.obj"
@@ -52,4 +59,4 @@
 
 Build succeeded.
 
-Time Elapsed 00:00:19.29
+Time Elapsed 00:00:19.66
