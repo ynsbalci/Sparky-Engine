@@ -1,7 +1,7 @@
-﻿Build started 9/2/2018 12:19:45 AM.
+﻿Build started 9/2/2018 12:23:32 AM.
      1>Project "C:\Users\ynsbalci\Desktop\Projects\Sparky Engine\Sparky-core\Sparky-core.vcxproj" on node 2 (Rebuild target(s)).
      1>ClCompile:
-         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D GLEW_STATIC /D _CRT_SECURE_NO_WARNINGS /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"C:\Users\ynsbalci\Desktop\Projects\Sparky Engine\bin\Debug\Intermediates\\" /Fd"C:\Users\ynsbalci\Desktop\Projects\Sparky Engine\bin\Debug\Intermediates\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp src\graphics\BatchRenderer2D.cpp src\graphics\buffers\buffer.cpp src\graphics\buffers\indexbuffer.cpp src\graphics\buffers\vertexarray.cpp src\graphics\layers\layer.cpp src\graphics\layers\tilelayer.cpp src\graphics\simple2drenderer.cpp src\graphics\shader.cpp src\graphics\sprite.cpp src\graphics\static_sprite.cpp src\graphics\window.cpp src\maths\mat4.cpp src\maths\vec2.cpp src\maths\vec3.cpp src\maths\vec4.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D GLEW_STATIC /D _CRT_SECURE_NO_WARNINGS /D _MBCS /Gm /EHsc /RTCu /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"C:\Users\ynsbalci\Desktop\Projects\Sparky Engine\bin\Debug\Intermediates\\" /Fd"C:\Users\ynsbalci\Desktop\Projects\Sparky Engine\bin\Debug\Intermediates\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp src\graphics\BatchRenderer2D.cpp src\graphics\buffers\buffer.cpp src\graphics\buffers\indexbuffer.cpp src\graphics\buffers\vertexarray.cpp src\graphics\layers\layer.cpp src\graphics\layers\tilelayer.cpp src\graphics\simple2drenderer.cpp src\graphics\shader.cpp src\graphics\sprite.cpp src\graphics\static_sprite.cpp src\graphics\window.cpp src\maths\mat4.cpp src\maths\vec2.cpp src\maths\vec3.cpp src\maths\vec4.cpp
          vec4.cpp
          vec3.cpp
          vec2.cpp
@@ -17,10 +17,154 @@
      1>c:\users\ynsbalci\desktop\projects\sparky engine\sparky-core\src\maths\maths_func.h(10): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
          simple2drenderer.cpp
      1>c:\users\ynsbalci\desktop\projects\sparky engine\sparky-core\src\maths\maths_func.h(10): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+     1>c:\program files (x86)\microsoft visual studio 14.0\vc\include\xmemory0(587): error C2338: The C++ Standard forbids containers of const elements because allocator<const T> is ill-formed.
+         c:\program files (x86)\microsoft visual studio 14.0\vc\include\xmemory0(801): note: see reference to class template instantiation 'std::allocator<_Ty>' being compiled
+                 with
+                 [
+                     _Ty=const sparky::maths::mat4
+                 ]
+         c:\program files (x86)\microsoft visual studio 14.0\vc\include\vector(444): note: see reference to class template instantiation 'std::_Wrap_alloc<std::allocator<_Ty>>' being compiled
+                 with
+                 [
+                     _Ty=const sparky::maths::mat4
+                 ]
+         c:\program files (x86)\microsoft visual studio 14.0\vc\include\vector(496): note: see reference to class template instantiation 'std::_Vec_base_types<_Ty,_Alloc>' being compiled
+                 with
+                 [
+                     _Ty=const sparky::maths::mat4,
+                     _Alloc=std::allocator<const sparky::maths::mat4>
+                 ]
+         c:\program files (x86)\microsoft visual studio 14.0\vc\include\vector(679): note: see reference to class template instantiation 'std::_Vector_alloc<std::_Vec_base_types<_Ty,_Alloc>>' being compiled
+                 with
+                 [
+                     _Ty=const sparky::maths::mat4,
+                     _Alloc=std::allocator<const sparky::maths::mat4>
+                 ]
+         c:\users\ynsbalci\desktop\projects\sparky engine\sparky-core\src\graphics\renderer2d.h(12): note: see reference to class template instantiation 'std::vector<const sparky::maths::mat4,std::allocator<_Ty>>' being compiled
+                 with
+                 [
+                     _Ty=const sparky::maths::mat4
+                 ]
+     1>c:\program files (x86)\microsoft visual studio 14.0\vc\include\xmemory0(615): error C2535: 'const sparky::maths::mat4 *std::allocator<_Ty>::address(const sparky::maths::mat4 &) noexcept const': member function already defined or declared
+                 with
+                 [
+                     _Ty=const sparky::maths::mat4
+                 ]
+         c:\program files (x86)\microsoft visual studio 14.0\vc\include\xmemory0(609): note: see declaration of 'std::allocator<_Ty>::address'
+                 with
+                 [
+                     _Ty=const sparky::maths::mat4
+                 ]
+     1>c:\program files (x86)\microsoft visual studio 14.0\vc\include\xmemory0(848): error C2535: 'const sparky::maths::mat4 *std::_Wrap_alloc<std::allocator<_Ty>>::address(const sparky::maths::mat4 &) const': member function already defined or declared
+                 with
+                 [
+                     _Ty=const sparky::maths::mat4
+                 ]
+         c:\program files (x86)\microsoft visual studio 14.0\vc\include\xmemory0(842): note: see declaration of 'std::_Wrap_alloc<std::allocator<_Ty>>::address'
+                 with
+                 [
+                     _Ty=const sparky::maths::mat4
+                 ]
          tilelayer.cpp
      1>c:\users\ynsbalci\desktop\projects\sparky engine\sparky-core\src\maths\maths_func.h(10): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+     1>c:\program files (x86)\microsoft visual studio 14.0\vc\include\xmemory0(587): error C2338: The C++ Standard forbids containers of const elements because allocator<const T> is ill-formed.
+         c:\program files (x86)\microsoft visual studio 14.0\vc\include\xmemory0(801): note: see reference to class template instantiation 'std::allocator<_Ty>' being compiled
+                 with
+                 [
+                     _Ty=const sparky::maths::mat4
+                 ]
+         c:\program files (x86)\microsoft visual studio 14.0\vc\include\vector(444): note: see reference to class template instantiation 'std::_Wrap_alloc<std::allocator<_Ty>>' being compiled
+                 with
+                 [
+                     _Ty=const sparky::maths::mat4
+                 ]
+         c:\program files (x86)\microsoft visual studio 14.0\vc\include\vector(496): note: see reference to class template instantiation 'std::_Vec_base_types<_Ty,_Alloc>' being compiled
+                 with
+                 [
+                     _Ty=const sparky::maths::mat4,
+                     _Alloc=std::allocator<const sparky::maths::mat4>
+                 ]
+         c:\program files (x86)\microsoft visual studio 14.0\vc\include\vector(679): note: see reference to class template instantiation 'std::_Vector_alloc<std::_Vec_base_types<_Ty,_Alloc>>' being compiled
+                 with
+                 [
+                     _Ty=const sparky::maths::mat4,
+                     _Alloc=std::allocator<const sparky::maths::mat4>
+                 ]
+         c:\users\ynsbalci\desktop\projects\sparky engine\sparky-core\src\graphics\renderer2d.h(12): note: see reference to class template instantiation 'std::vector<const sparky::maths::mat4,std::allocator<_Ty>>' being compiled
+                 with
+                 [
+                     _Ty=const sparky::maths::mat4
+                 ]
+     1>c:\program files (x86)\microsoft visual studio 14.0\vc\include\xmemory0(615): error C2535: 'const sparky::maths::mat4 *std::allocator<_Ty>::address(const sparky::maths::mat4 &) noexcept const': member function already defined or declared
+                 with
+                 [
+                     _Ty=const sparky::maths::mat4
+                 ]
+         c:\program files (x86)\microsoft visual studio 14.0\vc\include\xmemory0(609): note: see declaration of 'std::allocator<_Ty>::address'
+                 with
+                 [
+                     _Ty=const sparky::maths::mat4
+                 ]
+     1>c:\program files (x86)\microsoft visual studio 14.0\vc\include\xmemory0(848): error C2535: 'const sparky::maths::mat4 *std::_Wrap_alloc<std::allocator<_Ty>>::address(const sparky::maths::mat4 &) const': member function already defined or declared
+                 with
+                 [
+                     _Ty=const sparky::maths::mat4
+                 ]
+         c:\program files (x86)\microsoft visual studio 14.0\vc\include\xmemory0(842): note: see declaration of 'std::_Wrap_alloc<std::allocator<_Ty>>::address'
+                 with
+                 [
+                     _Ty=const sparky::maths::mat4
+                 ]
          layer.cpp
      1>c:\users\ynsbalci\desktop\projects\sparky engine\sparky-core\src\maths\maths_func.h(10): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+     1>c:\program files (x86)\microsoft visual studio 14.0\vc\include\xmemory0(587): error C2338: The C++ Standard forbids containers of const elements because allocator<const T> is ill-formed.
+         c:\program files (x86)\microsoft visual studio 14.0\vc\include\xmemory0(801): note: see reference to class template instantiation 'std::allocator<_Ty>' being compiled
+                 with
+                 [
+                     _Ty=const sparky::maths::mat4
+                 ]
+         c:\program files (x86)\microsoft visual studio 14.0\vc\include\vector(444): note: see reference to class template instantiation 'std::_Wrap_alloc<std::allocator<_Ty>>' being compiled
+                 with
+                 [
+                     _Ty=const sparky::maths::mat4
+                 ]
+         c:\program files (x86)\microsoft visual studio 14.0\vc\include\vector(496): note: see reference to class template instantiation 'std::_Vec_base_types<_Ty,_Alloc>' being compiled
+                 with
+                 [
+                     _Ty=const sparky::maths::mat4,
+                     _Alloc=std::allocator<const sparky::maths::mat4>
+                 ]
+         c:\program files (x86)\microsoft visual studio 14.0\vc\include\vector(679): note: see reference to class template instantiation 'std::_Vector_alloc<std::_Vec_base_types<_Ty,_Alloc>>' being compiled
+                 with
+                 [
+                     _Ty=const sparky::maths::mat4,
+                     _Alloc=std::allocator<const sparky::maths::mat4>
+                 ]
+         c:\users\ynsbalci\desktop\projects\sparky engine\sparky-core\src\graphics\renderer2d.h(12): note: see reference to class template instantiation 'std::vector<const sparky::maths::mat4,std::allocator<_Ty>>' being compiled
+                 with
+                 [
+                     _Ty=const sparky::maths::mat4
+                 ]
+     1>c:\program files (x86)\microsoft visual studio 14.0\vc\include\xmemory0(615): error C2535: 'const sparky::maths::mat4 *std::allocator<_Ty>::address(const sparky::maths::mat4 &) noexcept const': member function already defined or declared
+                 with
+                 [
+                     _Ty=const sparky::maths::mat4
+                 ]
+         c:\program files (x86)\microsoft visual studio 14.0\vc\include\xmemory0(609): note: see declaration of 'std::allocator<_Ty>::address'
+                 with
+                 [
+                     _Ty=const sparky::maths::mat4
+                 ]
+     1>c:\program files (x86)\microsoft visual studio 14.0\vc\include\xmemory0(848): error C2535: 'const sparky::maths::mat4 *std::_Wrap_alloc<std::allocator<_Ty>>::address(const sparky::maths::mat4 &) const': member function already defined or declared
+                 with
+                 [
+                     _Ty=const sparky::maths::mat4
+                 ]
+         c:\program files (x86)\microsoft visual studio 14.0\vc\include\xmemory0(842): note: see declaration of 'std::_Wrap_alloc<std::allocator<_Ty>>::address'
+                 with
+                 [
+                     _Ty=const sparky::maths::mat4
+                 ]
      1>c:\users\ynsbalci\desktop\projects\sparky engine\sparky-core\src\graphics\layers\layer.cpp(18): warning C4018: '<': signed/unsigned mismatch
          vertexarray.cpp
      1>c:\users\ynsbalci\desktop\projects\sparky engine\sparky-core\src\graphics\buffers\vertexarray.cpp(12): warning C4018: '<': signed/unsigned mismatch
@@ -28,40 +172,113 @@
          buffer.cpp
          BatchRenderer2D.cpp
      1>c:\users\ynsbalci\desktop\projects\sparky engine\sparky-core\src\maths\maths_func.h(10): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+     1>c:\program files (x86)\microsoft visual studio 14.0\vc\include\xmemory0(587): error C2338: The C++ Standard forbids containers of const elements because allocator<const T> is ill-formed.
+         c:\program files (x86)\microsoft visual studio 14.0\vc\include\xmemory0(801): note: see reference to class template instantiation 'std::allocator<_Ty>' being compiled
+                 with
+                 [
+                     _Ty=const sparky::maths::mat4
+                 ]
+         c:\program files (x86)\microsoft visual studio 14.0\vc\include\vector(444): note: see reference to class template instantiation 'std::_Wrap_alloc<std::allocator<_Ty>>' being compiled
+                 with
+                 [
+                     _Ty=const sparky::maths::mat4
+                 ]
+         c:\program files (x86)\microsoft visual studio 14.0\vc\include\vector(496): note: see reference to class template instantiation 'std::_Vec_base_types<_Ty,_Alloc>' being compiled
+                 with
+                 [
+                     _Ty=const sparky::maths::mat4,
+                     _Alloc=std::allocator<const sparky::maths::mat4>
+                 ]
+         c:\program files (x86)\microsoft visual studio 14.0\vc\include\vector(679): note: see reference to class template instantiation 'std::_Vector_alloc<std::_Vec_base_types<_Ty,_Alloc>>' being compiled
+                 with
+                 [
+                     _Ty=const sparky::maths::mat4,
+                     _Alloc=std::allocator<const sparky::maths::mat4>
+                 ]
+         c:\users\ynsbalci\desktop\projects\sparky engine\sparky-core\src\graphics\renderer2d.h(12): note: see reference to class template instantiation 'std::vector<const sparky::maths::mat4,std::allocator<_Ty>>' being compiled
+                 with
+                 [
+                     _Ty=const sparky::maths::mat4
+                 ]
+     1>c:\program files (x86)\microsoft visual studio 14.0\vc\include\xmemory0(615): error C2535: 'const sparky::maths::mat4 *std::allocator<_Ty>::address(const sparky::maths::mat4 &) noexcept const': member function already defined or declared
+                 with
+                 [
+                     _Ty=const sparky::maths::mat4
+                 ]
+         c:\program files (x86)\microsoft visual studio 14.0\vc\include\xmemory0(609): note: see declaration of 'std::allocator<_Ty>::address'
+                 with
+                 [
+                     _Ty=const sparky::maths::mat4
+                 ]
+     1>c:\program files (x86)\microsoft visual studio 14.0\vc\include\xmemory0(848): error C2535: 'const sparky::maths::mat4 *std::_Wrap_alloc<std::allocator<_Ty>>::address(const sparky::maths::mat4 &) const': member function already defined or declared
+                 with
+                 [
+                     _Ty=const sparky::maths::mat4
+                 ]
+         c:\program files (x86)\microsoft visual studio 14.0\vc\include\xmemory0(842): note: see declaration of 'std::_Wrap_alloc<std::allocator<_Ty>>::address'
+                 with
+                 [
+                     _Ty=const sparky::maths::mat4
+                 ]
      1>c:\users\ynsbalci\desktop\projects\sparky engine\sparky-core\src\graphics\batchrenderer2d.cpp(63): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
      1>c:\users\ynsbalci\desktop\projects\sparky engine\sparky-core\src\graphics\batchrenderer2d.cpp(64): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
      1>c:\users\ynsbalci\desktop\projects\sparky engine\sparky-core\src\graphics\batchrenderer2d.cpp(65): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
      1>c:\users\ynsbalci\desktop\projects\sparky engine\sparky-core\src\graphics\batchrenderer2d.cpp(66): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
          main.cpp
      1>c:\users\ynsbalci\desktop\projects\sparky engine\sparky-core\src\maths\maths_func.h(10): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+     1>c:\program files (x86)\microsoft visual studio 14.0\vc\include\xmemory0(587): error C2338: The C++ Standard forbids containers of const elements because allocator<const T> is ill-formed.
+         c:\program files (x86)\microsoft visual studio 14.0\vc\include\xmemory0(801): note: see reference to class template instantiation 'std::allocator<_Ty>' being compiled
+                 with
+                 [
+                     _Ty=const sparky::maths::mat4
+                 ]
+         c:\program files (x86)\microsoft visual studio 14.0\vc\include\vector(444): note: see reference to class template instantiation 'std::_Wrap_alloc<std::allocator<_Ty>>' being compiled
+                 with
+                 [
+                     _Ty=const sparky::maths::mat4
+                 ]
+         c:\program files (x86)\microsoft visual studio 14.0\vc\include\vector(496): note: see reference to class template instantiation 'std::_Vec_base_types<_Ty,_Alloc>' being compiled
+                 with
+                 [
+                     _Ty=const sparky::maths::mat4,
+                     _Alloc=std::allocator<const sparky::maths::mat4>
+                 ]
+         c:\program files (x86)\microsoft visual studio 14.0\vc\include\vector(679): note: see reference to class template instantiation 'std::_Vector_alloc<std::_Vec_base_types<_Ty,_Alloc>>' being compiled
+                 with
+                 [
+                     _Ty=const sparky::maths::mat4,
+                     _Alloc=std::allocator<const sparky::maths::mat4>
+                 ]
+         c:\users\ynsbalci\desktop\projects\sparky engine\sparky-core\src\graphics\renderer2d.h(12): note: see reference to class template instantiation 'std::vector<const sparky::maths::mat4,std::allocator<_Ty>>' being compiled
+                 with
+                 [
+                     _Ty=const sparky::maths::mat4
+                 ]
+     1>c:\program files (x86)\microsoft visual studio 14.0\vc\include\xmemory0(615): error C2535: 'const sparky::maths::mat4 *std::allocator<_Ty>::address(const sparky::maths::mat4 &) noexcept const': member function already defined or declared
+                 with
+                 [
+                     _Ty=const sparky::maths::mat4
+                 ]
+         c:\program files (x86)\microsoft visual studio 14.0\vc\include\xmemory0(609): note: see declaration of 'std::allocator<_Ty>::address'
+                 with
+                 [
+                     _Ty=const sparky::maths::mat4
+                 ]
+     1>c:\program files (x86)\microsoft visual studio 14.0\vc\include\xmemory0(848): error C2535: 'const sparky::maths::mat4 *std::_Wrap_alloc<std::allocator<_Ty>>::address(const sparky::maths::mat4 &) const': member function already defined or declared
+                 with
+                 [
+                     _Ty=const sparky::maths::mat4
+                 ]
+         c:\program files (x86)\microsoft visual studio 14.0\vc\include\xmemory0(842): note: see declaration of 'std::_Wrap_alloc<std::allocator<_Ty>>::address'
+                 with
+                 [
+                     _Ty=const sparky::maths::mat4
+                 ]
      1>c:\program files (x86)\windows kits\8.1\include\shared\minwindef.h(130): warning C4005: 'APIENTRY': macro redefinition
          c:\users\ynsbalci\desktop\projects\sparky engine\dependencies\glfw\include\glfw\glfw3.h(98): note: see previous definition of 'APIENTRY'
-     1>c:\users\ynsbalci\desktop\projects\sparky engine\sparky-core\main.cpp(44): warning C4305: '+=': truncation from 'double' to 'float'
-     1>c:\users\ynsbalci\desktop\projects\sparky engine\sparky-core\main.cpp(46): warning C4305: '+=': truncation from 'double' to 'float'
          Generating Code...
-       Link:
-         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\ynsbalci\Desktop\Projects\Sparky Engine\bin\Debug\Sparky-core.exe" /INCREMENTAL /NOLOGO glfw3.lib glew32s.lib opengl32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"C:\Users\ynsbalci\Desktop\Projects\Sparky Engine\bin\Debug\Sparky-core.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\ynsbalci\Desktop\Projects\Sparky Engine\bin\Debug\Sparky-core.lib" /MACHINE:X86 "C:\Users\ynsbalci\Desktop\Projects\Sparky Engine\bin\Debug\Intermediates\main.obj"
-         "C:\Users\ynsbalci\Desktop\Projects\Sparky Engine\bin\Debug\Intermediates\BatchRenderer2D.obj"
-         "C:\Users\ynsbalci\Desktop\Projects\Sparky Engine\bin\Debug\Intermediates\buffer.obj"
-         "C:\Users\ynsbalci\Desktop\Projects\Sparky Engine\bin\Debug\Intermediates\indexbuffer.obj"
-         "C:\Users\ynsbalci\Desktop\Projects\Sparky Engine\bin\Debug\Intermediates\vertexarray.obj"
-         "C:\Users\ynsbalci\Desktop\Projects\Sparky Engine\bin\Debug\Intermediates\layer.obj"
-         "C:\Users\ynsbalci\Desktop\Projects\Sparky Engine\bin\Debug\Intermediates\tilelayer.obj"
-         "C:\Users\ynsbalci\Desktop\Projects\Sparky Engine\bin\Debug\Intermediates\simple2drenderer.obj"
-         "C:\Users\ynsbalci\Desktop\Projects\Sparky Engine\bin\Debug\Intermediates\shader.obj"
-         "C:\Users\ynsbalci\Desktop\Projects\Sparky Engine\bin\Debug\Intermediates\sprite.obj"
-         "C:\Users\ynsbalci\Desktop\Projects\Sparky Engine\bin\Debug\Intermediates\static_sprite.obj"
-         "C:\Users\ynsbalci\Desktop\Projects\Sparky Engine\bin\Debug\Intermediates\window.obj"
-         "C:\Users\ynsbalci\Desktop\Projects\Sparky Engine\bin\Debug\Intermediates\mat4.obj"
-         "C:\Users\ynsbalci\Desktop\Projects\Sparky Engine\bin\Debug\Intermediates\vec2.obj"
-         "C:\Users\ynsbalci\Desktop\Projects\Sparky Engine\bin\Debug\Intermediates\vec3.obj"
-         "C:\Users\ynsbalci\Desktop\Projects\Sparky Engine\bin\Debug\Intermediates\vec4.obj"
-     1>LINK : warning LNK4098: defaultlib 'MSVCRT' conflicts with use of other libs; use /NODEFAULTLIB:library
-     1>LINK : warning LNK4098: defaultlib 'LIBCMT' conflicts with use of other libs; use /NODEFAULTLIB:library
-     1>glew32s.lib(glew.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'glew32s.lib(glew.obj)' or at 'C:\Users\ynsbalci\Desktop\Projects\Sparky Engine\bin\Debug\vc120.pdb'; linking object as if no debug info
-         Sparky-core.vcxproj -> C:\Users\ynsbalci\Desktop\Projects\Sparky Engine\bin\Debug\Sparky-core.exe
-     1>Done Building Project "C:\Users\ynsbalci\Desktop\Projects\Sparky Engine\Sparky-core\Sparky-core.vcxproj" (Rebuild target(s)).
+     1>Done Building Project "C:\Users\ynsbalci\Desktop\Projects\Sparky Engine\Sparky-core\Sparky-core.vcxproj" (Rebuild target(s)) -- FAILED.
 
-Build succeeded.
+Build FAILED.
 
-Time Elapsed 00:00:26.53
+Time Elapsed 00:00:19.15
