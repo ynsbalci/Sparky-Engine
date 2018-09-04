@@ -1,10 +1,13 @@
 #pragma once
 
+#include <vector>
 #include <GL/glew.h>
 #include "../maths/maths.h"
-#include "renderable2d.h"
+
 
 namespace sparky { namespace graphics {
+
+	class Renderable2D;
 
 	class Renderer2D
 	{
@@ -38,6 +41,7 @@ namespace sparky { namespace graphics {
 
 		virtual void begin() {}
 		virtual void submit(const Renderable2D* renderable) = 0;
+		virtual void drawString(const std::string& text, const maths::vec3& position, unsigned int color) { }
 		virtual void end() {}
 		virtual void flush() = 0;
 	};

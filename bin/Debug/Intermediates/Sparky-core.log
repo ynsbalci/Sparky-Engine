@@ -1,284 +1,204 @@
-﻿Build started 9/2/2018 12:23:32 AM.
-     1>Project "C:\Users\ynsbalci\Desktop\Projects\Sparky Engine\Sparky-core\Sparky-core.vcxproj" on node 2 (Rebuild target(s)).
+﻿Build started 9/4/2018 9:59:55 PM.
+     1>Project "C:\Users\ynsbalci\Desktop\Sparky-214ade80f55b89853b17d2e152b99229fc4a4bbe\Sparky-core\Sparky-core.vcxproj" on node 2 (Build target(s)).
      1>ClCompile:
-         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D GLEW_STATIC /D _CRT_SECURE_NO_WARNINGS /D _MBCS /Gm /EHsc /RTCu /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"C:\Users\ynsbalci\Desktop\Projects\Sparky Engine\bin\Debug\Intermediates\\" /Fd"C:\Users\ynsbalci\Desktop\Projects\Sparky Engine\bin\Debug\Intermediates\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp src\graphics\BatchRenderer2D.cpp src\graphics\buffers\buffer.cpp src\graphics\buffers\indexbuffer.cpp src\graphics\buffers\vertexarray.cpp src\graphics\layers\layer.cpp src\graphics\layers\tilelayer.cpp src\graphics\simple2drenderer.cpp src\graphics\shader.cpp src\graphics\sprite.cpp src\graphics\static_sprite.cpp src\graphics\window.cpp src\maths\mat4.cpp src\maths\vec2.cpp src\maths\vec3.cpp src\maths\vec4.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl- /Od /Oy- /D GLEW_STATIC /D FT2_BUILD_LIBRARY /D WIN32 /D _LIB /D _CRT_NONSTDC_NO_DEPRECATE /D _CRT_SECURE_NO_WARNINGS /D _MBCS /Gm /EHsc /RTCu /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"C:\Users\ynsbalci\Desktop\Sparky-214ade80f55b89853b17d2e152b99229fc4a4bbe\bin\Debug\Intermediates\\" /Fd"C:\Users\ynsbalci\Desktop\Sparky-214ade80f55b89853b17d2e152b99229fc4a4bbe\bin\Debug\Intermediates\vc120.pdb" /Gd /TC /analyze- /errorReport:prompt "ext\freetype-gl\platform.c" "ext\freetype-gl\texture-atlas.c" "ext\freetype-gl\texture-font.c" "ext\freetype-gl\vector.c" ext\freetype\src\autofit\autofit.c ext\freetype\src\base\ftbase.c ext\freetype\src\base\ftbbox.c ext\freetype\src\base\ftbitmap.c ext\freetype\src\base\ftdebug.c ext\freetype\src\base\ftfstype.c ext\freetype\src\base\ftgasp.c ext\freetype\src\base\ftglyph.c ext\freetype\src\base\ftgxval.c ext\freetype\src\base\ftinit.c ext\freetype\src\base\ftlcdfil.c ext\freetype\src\base\ftmm.c ext\freetype\src\base\ftotval.c ext\freetype\src\base\ftpatent.c ext\freetype\src\base\ftpfr.c ext\freetype\src\base\ftstroke.c ext\freetype\src\base\ftsynth.c ext\freetype\src\base\ftsystem.c ext\freetype\src\base\fttype1.c ext\freetype\src\base\ftwinfnt.c ext\freetype\src\base\ftxf86.c ext\freetype\src\bdf\bdf.c ext\freetype\src\cache\ftcache.c ext\freetype\src\cff\cff.c ext\freetype\src\cid\type1cid.c ext\freetype\src\gzip\ftgzip.c ext\freetype\src\lzw\ftlzw.c ext\freetype\src\pcf\pcf.c ext\freetype\src\pfr\pfr.c ext\freetype\src\psaux\psaux.c ext\freetype\src\pshinter\pshinter.c ext\freetype\src\psnames\psmodule.c ext\freetype\src\raster\raster.c ext\freetype\src\sfnt\sfnt.c ext\freetype\src\smooth\smooth.c ext\freetype\src\truetype\truetype.c ext\freetype\src\type1\type1.c ext\freetype\src\type42\type42.c ext\freetype\src\winfonts\winfnt.c
+         winfnt.c
+         type42.c
+         type1.c
+         truetype.c
+         smooth.c
+         sfnt.c
+         raster.c
+         psmodule.c
+         pshinter.c
+         psaux.c
+         pfr.c
+         pcf.c
+         ftlzw.c
+         ftgzip.c
+         type1cid.c
+         cff.c
+         ftcache.c
+         bdf.c
+         ftxf86.c
+         ftwinfnt.c
+         Generating Code...
+         Compiling...
+         fttype1.c
+         ftsystem.c
+         ftsynth.c
+         ftstroke.c
+         ftpfr.c
+         ftpatent.c
+         ftotval.c
+         ftmm.c
+         ftlcdfil.c
+         ftinit.c
+         ftgxval.c
+         ftglyph.c
+         ftgasp.c
+         ftfstype.c
+         ftdebug.c
+         ftbitmap.c
+         ftbbox.c
+         ftbase.c
+         autofit.c
+         vector.c
+         Generating Code...
+         Compiling...
+         texture-font.c
+         texture-atlas.c
+     1>c:\users\ynsbalci\desktop\sparky-214ade80f55b89853b17d2e152b99229fc4a4bbe\sparky-core\ext\freetype-gl\texture-atlas.c(132): warning C4090: '=' : different 'const' qualifiers
+     1>c:\users\ynsbalci\desktop\sparky-214ade80f55b89853b17d2e152b99229fc4a4bbe\sparky-core\ext\freetype-gl\texture-atlas.c(236): warning C4018: '<' : signed/unsigned mismatch
+         platform.c
+         Generating Code...
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl- /Od /Oy- /D GLEW_STATIC /D FT2_BUILD_LIBRARY /D WIN32 /D _LIB /D _CRT_NONSTDC_NO_DEPRECATE /D _CRT_SECURE_NO_WARNINGS /D _MBCS /Gm /EHsc /RTCu /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"C:\Users\ynsbalci\Desktop\Sparky-214ade80f55b89853b17d2e152b99229fc4a4bbe\bin\Debug\Intermediates\\" /Fd"C:\Users\ynsbalci\Desktop\Sparky-214ade80f55b89853b17d2e152b99229fc4a4bbe\bin\Debug\Intermediates\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp src\graphics\BatchRenderer2D.cpp src\graphics\buffers\buffer.cpp src\graphics\buffers\indexbuffer.cpp src\graphics\buffers\vertexarray.cpp src\graphics\label.cpp src\graphics\layers\group.cpp src\graphics\layers\layer.cpp src\graphics\layers\tilelayer.cpp src\graphics\simple2drenderer.cpp src\graphics\shader.cpp src\graphics\sprite.cpp src\graphics\static_sprite.cpp src\graphics\texture.cpp src\graphics\window.cpp src\maths\mat4.cpp src\maths\vec2.cpp src\maths\vec3.cpp src\maths\vec4.cpp
          vec4.cpp
          vec3.cpp
          vec2.cpp
          mat4.cpp
-     1>c:\users\ynsbalci\desktop\projects\sparky engine\sparky-core\src\maths\maths_func.h(10): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+     1>c:\users\ynsbalci\desktop\sparky-214ade80f55b89853b17d2e152b99229fc4a4bbe\sparky-core\src\maths\maths_func.h(10): warning C4244: 'return' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\ynsbalci\desktop\sparky-214ade80f55b89853b17d2e152b99229fc4a4bbe\sparky-core\src\maths\mat4.cpp(206): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
          window.cpp
-     1>c:\users\ynsbalci\desktop\projects\sparky engine\sparky-core\src\graphics\window.cpp(50): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+     1>c:\users\ynsbalci\desktop\sparky-214ade80f55b89853b17d2e152b99229fc4a4bbe\sparky-core\src\graphics\window.cpp(52): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+         texture.cpp
          static_sprite.cpp
-     1>c:\users\ynsbalci\desktop\projects\sparky engine\sparky-core\src\maths\maths_func.h(10): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+     1>c:\users\ynsbalci\desktop\sparky-214ade80f55b89853b17d2e152b99229fc4a4bbe\sparky-core\src\maths\maths_func.h(10): warning C4244: 'return' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\ynsbalci\desktop\sparky-214ade80f55b89853b17d2e152b99229fc4a4bbe\sparky-core\src\graphics\renderable2d.h(48): warning C4244: 'initializing' : conversion from 'const float' to 'int', possible loss of data
+     1>c:\users\ynsbalci\desktop\sparky-214ade80f55b89853b17d2e152b99229fc4a4bbe\sparky-core\src\graphics\renderable2d.h(49): warning C4244: 'initializing' : conversion from 'const float' to 'int', possible loss of data
+     1>c:\users\ynsbalci\desktop\sparky-214ade80f55b89853b17d2e152b99229fc4a4bbe\sparky-core\src\graphics\renderable2d.h(50): warning C4244: 'initializing' : conversion from 'const float' to 'int', possible loss of data
+     1>c:\users\ynsbalci\desktop\sparky-214ade80f55b89853b17d2e152b99229fc4a4bbe\sparky-core\src\graphics\renderable2d.h(51): warning C4244: 'initializing' : conversion from 'const float' to 'int', possible loss of data
          sprite.cpp
-     1>c:\users\ynsbalci\desktop\projects\sparky engine\sparky-core\src\maths\maths_func.h(10): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+     1>c:\users\ynsbalci\desktop\sparky-214ade80f55b89853b17d2e152b99229fc4a4bbe\sparky-core\src\maths\maths_func.h(10): warning C4244: 'return' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\ynsbalci\desktop\sparky-214ade80f55b89853b17d2e152b99229fc4a4bbe\sparky-core\src\graphics\renderable2d.h(48): warning C4244: 'initializing' : conversion from 'const float' to 'int', possible loss of data
+     1>c:\users\ynsbalci\desktop\sparky-214ade80f55b89853b17d2e152b99229fc4a4bbe\sparky-core\src\graphics\renderable2d.h(49): warning C4244: 'initializing' : conversion from 'const float' to 'int', possible loss of data
+     1>c:\users\ynsbalci\desktop\sparky-214ade80f55b89853b17d2e152b99229fc4a4bbe\sparky-core\src\graphics\renderable2d.h(50): warning C4244: 'initializing' : conversion from 'const float' to 'int', possible loss of data
+     1>c:\users\ynsbalci\desktop\sparky-214ade80f55b89853b17d2e152b99229fc4a4bbe\sparky-core\src\graphics\renderable2d.h(51): warning C4244: 'initializing' : conversion from 'const float' to 'int', possible loss of data
          shader.cpp
-     1>c:\users\ynsbalci\desktop\projects\sparky engine\sparky-core\src\maths\maths_func.h(10): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+     1>c:\users\ynsbalci\desktop\sparky-214ade80f55b89853b17d2e152b99229fc4a4bbe\sparky-core\src\maths\maths_func.h(10): warning C4244: 'return' : conversion from 'double' to 'float', possible loss of data
          simple2drenderer.cpp
-     1>c:\users\ynsbalci\desktop\projects\sparky engine\sparky-core\src\maths\maths_func.h(10): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
-     1>c:\program files (x86)\microsoft visual studio 14.0\vc\include\xmemory0(587): error C2338: The C++ Standard forbids containers of const elements because allocator<const T> is ill-formed.
-         c:\program files (x86)\microsoft visual studio 14.0\vc\include\xmemory0(801): note: see reference to class template instantiation 'std::allocator<_Ty>' being compiled
-                 with
-                 [
-                     _Ty=const sparky::maths::mat4
-                 ]
-         c:\program files (x86)\microsoft visual studio 14.0\vc\include\vector(444): note: see reference to class template instantiation 'std::_Wrap_alloc<std::allocator<_Ty>>' being compiled
-                 with
-                 [
-                     _Ty=const sparky::maths::mat4
-                 ]
-         c:\program files (x86)\microsoft visual studio 14.0\vc\include\vector(496): note: see reference to class template instantiation 'std::_Vec_base_types<_Ty,_Alloc>' being compiled
-                 with
-                 [
-                     _Ty=const sparky::maths::mat4,
-                     _Alloc=std::allocator<const sparky::maths::mat4>
-                 ]
-         c:\program files (x86)\microsoft visual studio 14.0\vc\include\vector(679): note: see reference to class template instantiation 'std::_Vector_alloc<std::_Vec_base_types<_Ty,_Alloc>>' being compiled
-                 with
-                 [
-                     _Ty=const sparky::maths::mat4,
-                     _Alloc=std::allocator<const sparky::maths::mat4>
-                 ]
-         c:\users\ynsbalci\desktop\projects\sparky engine\sparky-core\src\graphics\renderer2d.h(12): note: see reference to class template instantiation 'std::vector<const sparky::maths::mat4,std::allocator<_Ty>>' being compiled
-                 with
-                 [
-                     _Ty=const sparky::maths::mat4
-                 ]
-     1>c:\program files (x86)\microsoft visual studio 14.0\vc\include\xmemory0(615): error C2535: 'const sparky::maths::mat4 *std::allocator<_Ty>::address(const sparky::maths::mat4 &) noexcept const': member function already defined or declared
-                 with
-                 [
-                     _Ty=const sparky::maths::mat4
-                 ]
-         c:\program files (x86)\microsoft visual studio 14.0\vc\include\xmemory0(609): note: see declaration of 'std::allocator<_Ty>::address'
-                 with
-                 [
-                     _Ty=const sparky::maths::mat4
-                 ]
-     1>c:\program files (x86)\microsoft visual studio 14.0\vc\include\xmemory0(848): error C2535: 'const sparky::maths::mat4 *std::_Wrap_alloc<std::allocator<_Ty>>::address(const sparky::maths::mat4 &) const': member function already defined or declared
-                 with
-                 [
-                     _Ty=const sparky::maths::mat4
-                 ]
-         c:\program files (x86)\microsoft visual studio 14.0\vc\include\xmemory0(842): note: see declaration of 'std::_Wrap_alloc<std::allocator<_Ty>>::address'
-                 with
-                 [
-                     _Ty=const sparky::maths::mat4
-                 ]
+     1>c:\users\ynsbalci\desktop\sparky-214ade80f55b89853b17d2e152b99229fc4a4bbe\sparky-core\src\maths\maths_func.h(10): warning C4244: 'return' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\ynsbalci\desktop\sparky-214ade80f55b89853b17d2e152b99229fc4a4bbe\sparky-core\src\graphics\renderable2d.h(48): warning C4244: 'initializing' : conversion from 'const float' to 'int', possible loss of data
+     1>c:\users\ynsbalci\desktop\sparky-214ade80f55b89853b17d2e152b99229fc4a4bbe\sparky-core\src\graphics\renderable2d.h(49): warning C4244: 'initializing' : conversion from 'const float' to 'int', possible loss of data
+     1>c:\users\ynsbalci\desktop\sparky-214ade80f55b89853b17d2e152b99229fc4a4bbe\sparky-core\src\graphics\renderable2d.h(50): warning C4244: 'initializing' : conversion from 'const float' to 'int', possible loss of data
+     1>c:\users\ynsbalci\desktop\sparky-214ade80f55b89853b17d2e152b99229fc4a4bbe\sparky-core\src\graphics\renderable2d.h(51): warning C4244: 'initializing' : conversion from 'const float' to 'int', possible loss of data
          tilelayer.cpp
-     1>c:\users\ynsbalci\desktop\projects\sparky engine\sparky-core\src\maths\maths_func.h(10): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
-     1>c:\program files (x86)\microsoft visual studio 14.0\vc\include\xmemory0(587): error C2338: The C++ Standard forbids containers of const elements because allocator<const T> is ill-formed.
-         c:\program files (x86)\microsoft visual studio 14.0\vc\include\xmemory0(801): note: see reference to class template instantiation 'std::allocator<_Ty>' being compiled
-                 with
-                 [
-                     _Ty=const sparky::maths::mat4
-                 ]
-         c:\program files (x86)\microsoft visual studio 14.0\vc\include\vector(444): note: see reference to class template instantiation 'std::_Wrap_alloc<std::allocator<_Ty>>' being compiled
-                 with
-                 [
-                     _Ty=const sparky::maths::mat4
-                 ]
-         c:\program files (x86)\microsoft visual studio 14.0\vc\include\vector(496): note: see reference to class template instantiation 'std::_Vec_base_types<_Ty,_Alloc>' being compiled
-                 with
-                 [
-                     _Ty=const sparky::maths::mat4,
-                     _Alloc=std::allocator<const sparky::maths::mat4>
-                 ]
-         c:\program files (x86)\microsoft visual studio 14.0\vc\include\vector(679): note: see reference to class template instantiation 'std::_Vector_alloc<std::_Vec_base_types<_Ty,_Alloc>>' being compiled
-                 with
-                 [
-                     _Ty=const sparky::maths::mat4,
-                     _Alloc=std::allocator<const sparky::maths::mat4>
-                 ]
-         c:\users\ynsbalci\desktop\projects\sparky engine\sparky-core\src\graphics\renderer2d.h(12): note: see reference to class template instantiation 'std::vector<const sparky::maths::mat4,std::allocator<_Ty>>' being compiled
-                 with
-                 [
-                     _Ty=const sparky::maths::mat4
-                 ]
-     1>c:\program files (x86)\microsoft visual studio 14.0\vc\include\xmemory0(615): error C2535: 'const sparky::maths::mat4 *std::allocator<_Ty>::address(const sparky::maths::mat4 &) noexcept const': member function already defined or declared
-                 with
-                 [
-                     _Ty=const sparky::maths::mat4
-                 ]
-         c:\program files (x86)\microsoft visual studio 14.0\vc\include\xmemory0(609): note: see declaration of 'std::allocator<_Ty>::address'
-                 with
-                 [
-                     _Ty=const sparky::maths::mat4
-                 ]
-     1>c:\program files (x86)\microsoft visual studio 14.0\vc\include\xmemory0(848): error C2535: 'const sparky::maths::mat4 *std::_Wrap_alloc<std::allocator<_Ty>>::address(const sparky::maths::mat4 &) const': member function already defined or declared
-                 with
-                 [
-                     _Ty=const sparky::maths::mat4
-                 ]
-         c:\program files (x86)\microsoft visual studio 14.0\vc\include\xmemory0(842): note: see declaration of 'std::_Wrap_alloc<std::allocator<_Ty>>::address'
-                 with
-                 [
-                     _Ty=const sparky::maths::mat4
-                 ]
+     1>c:\users\ynsbalci\desktop\sparky-214ade80f55b89853b17d2e152b99229fc4a4bbe\sparky-core\src\maths\maths_func.h(10): warning C4244: 'return' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\ynsbalci\desktop\sparky-214ade80f55b89853b17d2e152b99229fc4a4bbe\sparky-core\src\graphics\renderable2d.h(48): warning C4244: 'initializing' : conversion from 'const float' to 'int', possible loss of data
+     1>c:\users\ynsbalci\desktop\sparky-214ade80f55b89853b17d2e152b99229fc4a4bbe\sparky-core\src\graphics\renderable2d.h(49): warning C4244: 'initializing' : conversion from 'const float' to 'int', possible loss of data
+     1>c:\users\ynsbalci\desktop\sparky-214ade80f55b89853b17d2e152b99229fc4a4bbe\sparky-core\src\graphics\renderable2d.h(50): warning C4244: 'initializing' : conversion from 'const float' to 'int', possible loss of data
+     1>c:\users\ynsbalci\desktop\sparky-214ade80f55b89853b17d2e152b99229fc4a4bbe\sparky-core\src\graphics\renderable2d.h(51): warning C4244: 'initializing' : conversion from 'const float' to 'int', possible loss of data
          layer.cpp
-     1>c:\users\ynsbalci\desktop\projects\sparky engine\sparky-core\src\maths\maths_func.h(10): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
-     1>c:\program files (x86)\microsoft visual studio 14.0\vc\include\xmemory0(587): error C2338: The C++ Standard forbids containers of const elements because allocator<const T> is ill-formed.
-         c:\program files (x86)\microsoft visual studio 14.0\vc\include\xmemory0(801): note: see reference to class template instantiation 'std::allocator<_Ty>' being compiled
-                 with
-                 [
-                     _Ty=const sparky::maths::mat4
-                 ]
-         c:\program files (x86)\microsoft visual studio 14.0\vc\include\vector(444): note: see reference to class template instantiation 'std::_Wrap_alloc<std::allocator<_Ty>>' being compiled
-                 with
-                 [
-                     _Ty=const sparky::maths::mat4
-                 ]
-         c:\program files (x86)\microsoft visual studio 14.0\vc\include\vector(496): note: see reference to class template instantiation 'std::_Vec_base_types<_Ty,_Alloc>' being compiled
-                 with
-                 [
-                     _Ty=const sparky::maths::mat4,
-                     _Alloc=std::allocator<const sparky::maths::mat4>
-                 ]
-         c:\program files (x86)\microsoft visual studio 14.0\vc\include\vector(679): note: see reference to class template instantiation 'std::_Vector_alloc<std::_Vec_base_types<_Ty,_Alloc>>' being compiled
-                 with
-                 [
-                     _Ty=const sparky::maths::mat4,
-                     _Alloc=std::allocator<const sparky::maths::mat4>
-                 ]
-         c:\users\ynsbalci\desktop\projects\sparky engine\sparky-core\src\graphics\renderer2d.h(12): note: see reference to class template instantiation 'std::vector<const sparky::maths::mat4,std::allocator<_Ty>>' being compiled
-                 with
-                 [
-                     _Ty=const sparky::maths::mat4
-                 ]
-     1>c:\program files (x86)\microsoft visual studio 14.0\vc\include\xmemory0(615): error C2535: 'const sparky::maths::mat4 *std::allocator<_Ty>::address(const sparky::maths::mat4 &) noexcept const': member function already defined or declared
-                 with
-                 [
-                     _Ty=const sparky::maths::mat4
-                 ]
-         c:\program files (x86)\microsoft visual studio 14.0\vc\include\xmemory0(609): note: see declaration of 'std::allocator<_Ty>::address'
-                 with
-                 [
-                     _Ty=const sparky::maths::mat4
-                 ]
-     1>c:\program files (x86)\microsoft visual studio 14.0\vc\include\xmemory0(848): error C2535: 'const sparky::maths::mat4 *std::_Wrap_alloc<std::allocator<_Ty>>::address(const sparky::maths::mat4 &) const': member function already defined or declared
-                 with
-                 [
-                     _Ty=const sparky::maths::mat4
-                 ]
-         c:\program files (x86)\microsoft visual studio 14.0\vc\include\xmemory0(842): note: see declaration of 'std::_Wrap_alloc<std::allocator<_Ty>>::address'
-                 with
-                 [
-                     _Ty=const sparky::maths::mat4
-                 ]
-     1>c:\users\ynsbalci\desktop\projects\sparky engine\sparky-core\src\graphics\layers\layer.cpp(18): warning C4018: '<': signed/unsigned mismatch
+     1>c:\users\ynsbalci\desktop\sparky-214ade80f55b89853b17d2e152b99229fc4a4bbe\sparky-core\src\maths\maths_func.h(10): warning C4244: 'return' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\ynsbalci\desktop\sparky-214ade80f55b89853b17d2e152b99229fc4a4bbe\sparky-core\src\graphics\renderable2d.h(48): warning C4244: 'initializing' : conversion from 'const float' to 'int', possible loss of data
+     1>c:\users\ynsbalci\desktop\sparky-214ade80f55b89853b17d2e152b99229fc4a4bbe\sparky-core\src\graphics\renderable2d.h(49): warning C4244: 'initializing' : conversion from 'const float' to 'int', possible loss of data
+     1>c:\users\ynsbalci\desktop\sparky-214ade80f55b89853b17d2e152b99229fc4a4bbe\sparky-core\src\graphics\renderable2d.h(50): warning C4244: 'initializing' : conversion from 'const float' to 'int', possible loss of data
+     1>c:\users\ynsbalci\desktop\sparky-214ade80f55b89853b17d2e152b99229fc4a4bbe\sparky-core\src\graphics\renderable2d.h(51): warning C4244: 'initializing' : conversion from 'const float' to 'int', possible loss of data
+     1>c:\users\ynsbalci\desktop\sparky-214ade80f55b89853b17d2e152b99229fc4a4bbe\sparky-core\src\graphics\layers\layer.cpp(18): warning C4018: '<' : signed/unsigned mismatch
+         group.cpp
+     1>c:\users\ynsbalci\desktop\sparky-214ade80f55b89853b17d2e152b99229fc4a4bbe\sparky-core\src\maths\maths_func.h(10): warning C4244: 'return' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\ynsbalci\desktop\sparky-214ade80f55b89853b17d2e152b99229fc4a4bbe\sparky-core\src\graphics\renderable2d.h(48): warning C4244: 'initializing' : conversion from 'const float' to 'int', possible loss of data
+     1>c:\users\ynsbalci\desktop\sparky-214ade80f55b89853b17d2e152b99229fc4a4bbe\sparky-core\src\graphics\renderable2d.h(49): warning C4244: 'initializing' : conversion from 'const float' to 'int', possible loss of data
+     1>c:\users\ynsbalci\desktop\sparky-214ade80f55b89853b17d2e152b99229fc4a4bbe\sparky-core\src\graphics\renderable2d.h(50): warning C4244: 'initializing' : conversion from 'const float' to 'int', possible loss of data
+     1>c:\users\ynsbalci\desktop\sparky-214ade80f55b89853b17d2e152b99229fc4a4bbe\sparky-core\src\graphics\renderable2d.h(51): warning C4244: 'initializing' : conversion from 'const float' to 'int', possible loss of data
+     1>c:\users\ynsbalci\desktop\sparky-214ade80f55b89853b17d2e152b99229fc4a4bbe\sparky-core\src\graphics\layers\group.cpp(12): warning C4018: '<' : signed/unsigned mismatch
+         label.cpp
+     1>c:\users\ynsbalci\desktop\sparky-214ade80f55b89853b17d2e152b99229fc4a4bbe\sparky-core\src\maths\maths_func.h(10): warning C4244: 'return' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\ynsbalci\desktop\sparky-214ade80f55b89853b17d2e152b99229fc4a4bbe\sparky-core\src\graphics\renderable2d.h(48): warning C4244: 'initializing' : conversion from 'const float' to 'int', possible loss of data
+     1>c:\users\ynsbalci\desktop\sparky-214ade80f55b89853b17d2e152b99229fc4a4bbe\sparky-core\src\graphics\renderable2d.h(49): warning C4244: 'initializing' : conversion from 'const float' to 'int', possible loss of data
+     1>c:\users\ynsbalci\desktop\sparky-214ade80f55b89853b17d2e152b99229fc4a4bbe\sparky-core\src\graphics\renderable2d.h(50): warning C4244: 'initializing' : conversion from 'const float' to 'int', possible loss of data
+     1>c:\users\ynsbalci\desktop\sparky-214ade80f55b89853b17d2e152b99229fc4a4bbe\sparky-core\src\graphics\renderable2d.h(51): warning C4244: 'initializing' : conversion from 'const float' to 'int', possible loss of data
          vertexarray.cpp
-     1>c:\users\ynsbalci\desktop\projects\sparky engine\sparky-core\src\graphics\buffers\vertexarray.cpp(12): warning C4018: '<': signed/unsigned mismatch
+     1>c:\users\ynsbalci\desktop\sparky-214ade80f55b89853b17d2e152b99229fc4a4bbe\sparky-core\src\graphics\buffers\vertexarray.cpp(12): warning C4018: '<' : signed/unsigned mismatch
          indexbuffer.cpp
          buffer.cpp
          BatchRenderer2D.cpp
-     1>c:\users\ynsbalci\desktop\projects\sparky engine\sparky-core\src\maths\maths_func.h(10): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
-     1>c:\program files (x86)\microsoft visual studio 14.0\vc\include\xmemory0(587): error C2338: The C++ Standard forbids containers of const elements because allocator<const T> is ill-formed.
-         c:\program files (x86)\microsoft visual studio 14.0\vc\include\xmemory0(801): note: see reference to class template instantiation 'std::allocator<_Ty>' being compiled
-                 with
-                 [
-                     _Ty=const sparky::maths::mat4
-                 ]
-         c:\program files (x86)\microsoft visual studio 14.0\vc\include\vector(444): note: see reference to class template instantiation 'std::_Wrap_alloc<std::allocator<_Ty>>' being compiled
-                 with
-                 [
-                     _Ty=const sparky::maths::mat4
-                 ]
-         c:\program files (x86)\microsoft visual studio 14.0\vc\include\vector(496): note: see reference to class template instantiation 'std::_Vec_base_types<_Ty,_Alloc>' being compiled
-                 with
-                 [
-                     _Ty=const sparky::maths::mat4,
-                     _Alloc=std::allocator<const sparky::maths::mat4>
-                 ]
-         c:\program files (x86)\microsoft visual studio 14.0\vc\include\vector(679): note: see reference to class template instantiation 'std::_Vector_alloc<std::_Vec_base_types<_Ty,_Alloc>>' being compiled
-                 with
-                 [
-                     _Ty=const sparky::maths::mat4,
-                     _Alloc=std::allocator<const sparky::maths::mat4>
-                 ]
-         c:\users\ynsbalci\desktop\projects\sparky engine\sparky-core\src\graphics\renderer2d.h(12): note: see reference to class template instantiation 'std::vector<const sparky::maths::mat4,std::allocator<_Ty>>' being compiled
-                 with
-                 [
-                     _Ty=const sparky::maths::mat4
-                 ]
-     1>c:\program files (x86)\microsoft visual studio 14.0\vc\include\xmemory0(615): error C2535: 'const sparky::maths::mat4 *std::allocator<_Ty>::address(const sparky::maths::mat4 &) noexcept const': member function already defined or declared
-                 with
-                 [
-                     _Ty=const sparky::maths::mat4
-                 ]
-         c:\program files (x86)\microsoft visual studio 14.0\vc\include\xmemory0(609): note: see declaration of 'std::allocator<_Ty>::address'
-                 with
-                 [
-                     _Ty=const sparky::maths::mat4
-                 ]
-     1>c:\program files (x86)\microsoft visual studio 14.0\vc\include\xmemory0(848): error C2535: 'const sparky::maths::mat4 *std::_Wrap_alloc<std::allocator<_Ty>>::address(const sparky::maths::mat4 &) const': member function already defined or declared
-                 with
-                 [
-                     _Ty=const sparky::maths::mat4
-                 ]
-         c:\program files (x86)\microsoft visual studio 14.0\vc\include\xmemory0(842): note: see declaration of 'std::_Wrap_alloc<std::allocator<_Ty>>::address'
-                 with
-                 [
-                     _Ty=const sparky::maths::mat4
-                 ]
-     1>c:\users\ynsbalci\desktop\projects\sparky engine\sparky-core\src\graphics\batchrenderer2d.cpp(63): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
-     1>c:\users\ynsbalci\desktop\projects\sparky engine\sparky-core\src\graphics\batchrenderer2d.cpp(64): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
-     1>c:\users\ynsbalci\desktop\projects\sparky engine\sparky-core\src\graphics\batchrenderer2d.cpp(65): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
-     1>c:\users\ynsbalci\desktop\projects\sparky engine\sparky-core\src\graphics\batchrenderer2d.cpp(66): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+     1>c:\users\ynsbalci\desktop\sparky-214ade80f55b89853b17d2e152b99229fc4a4bbe\sparky-core\src\maths\maths_func.h(10): warning C4244: 'return' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\ynsbalci\desktop\sparky-214ade80f55b89853b17d2e152b99229fc4a4bbe\sparky-core\src\graphics\renderable2d.h(48): warning C4244: 'initializing' : conversion from 'const float' to 'int', possible loss of data
+     1>c:\users\ynsbalci\desktop\sparky-214ade80f55b89853b17d2e152b99229fc4a4bbe\sparky-core\src\graphics\renderable2d.h(49): warning C4244: 'initializing' : conversion from 'const float' to 'int', possible loss of data
+     1>c:\users\ynsbalci\desktop\sparky-214ade80f55b89853b17d2e152b99229fc4a4bbe\sparky-core\src\graphics\renderable2d.h(50): warning C4244: 'initializing' : conversion from 'const float' to 'int', possible loss of data
+     1>c:\users\ynsbalci\desktop\sparky-214ade80f55b89853b17d2e152b99229fc4a4bbe\sparky-core\src\graphics\renderable2d.h(51): warning C4244: 'initializing' : conversion from 'const float' to 'int', possible loss of data
+     1>c:\users\ynsbalci\desktop\sparky-214ade80f55b89853b17d2e152b99229fc4a4bbe\sparky-core\src\graphics\batchrenderer2d.cpp(79): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\ynsbalci\desktop\sparky-214ade80f55b89853b17d2e152b99229fc4a4bbe\sparky-core\src\graphics\batchrenderer2d.cpp(135): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\ynsbalci\desktop\sparky-214ade80f55b89853b17d2e152b99229fc4a4bbe\sparky-core\src\graphics\batchrenderer2d.cpp(162): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\ynsbalci\desktop\sparky-214ade80f55b89853b17d2e152b99229fc4a4bbe\sparky-core\src\graphics\batchrenderer2d.cpp(225): warning C4018: '<' : signed/unsigned mismatch
          main.cpp
-     1>c:\users\ynsbalci\desktop\projects\sparky engine\sparky-core\src\maths\maths_func.h(10): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
-     1>c:\program files (x86)\microsoft visual studio 14.0\vc\include\xmemory0(587): error C2338: The C++ Standard forbids containers of const elements because allocator<const T> is ill-formed.
-         c:\program files (x86)\microsoft visual studio 14.0\vc\include\xmemory0(801): note: see reference to class template instantiation 'std::allocator<_Ty>' being compiled
-                 with
-                 [
-                     _Ty=const sparky::maths::mat4
-                 ]
-         c:\program files (x86)\microsoft visual studio 14.0\vc\include\vector(444): note: see reference to class template instantiation 'std::_Wrap_alloc<std::allocator<_Ty>>' being compiled
-                 with
-                 [
-                     _Ty=const sparky::maths::mat4
-                 ]
-         c:\program files (x86)\microsoft visual studio 14.0\vc\include\vector(496): note: see reference to class template instantiation 'std::_Vec_base_types<_Ty,_Alloc>' being compiled
-                 with
-                 [
-                     _Ty=const sparky::maths::mat4,
-                     _Alloc=std::allocator<const sparky::maths::mat4>
-                 ]
-         c:\program files (x86)\microsoft visual studio 14.0\vc\include\vector(679): note: see reference to class template instantiation 'std::_Vector_alloc<std::_Vec_base_types<_Ty,_Alloc>>' being compiled
-                 with
-                 [
-                     _Ty=const sparky::maths::mat4,
-                     _Alloc=std::allocator<const sparky::maths::mat4>
-                 ]
-         c:\users\ynsbalci\desktop\projects\sparky engine\sparky-core\src\graphics\renderer2d.h(12): note: see reference to class template instantiation 'std::vector<const sparky::maths::mat4,std::allocator<_Ty>>' being compiled
-                 with
-                 [
-                     _Ty=const sparky::maths::mat4
-                 ]
-     1>c:\program files (x86)\microsoft visual studio 14.0\vc\include\xmemory0(615): error C2535: 'const sparky::maths::mat4 *std::allocator<_Ty>::address(const sparky::maths::mat4 &) noexcept const': member function already defined or declared
-                 with
-                 [
-                     _Ty=const sparky::maths::mat4
-                 ]
-         c:\program files (x86)\microsoft visual studio 14.0\vc\include\xmemory0(609): note: see declaration of 'std::allocator<_Ty>::address'
-                 with
-                 [
-                     _Ty=const sparky::maths::mat4
-                 ]
-     1>c:\program files (x86)\microsoft visual studio 14.0\vc\include\xmemory0(848): error C2535: 'const sparky::maths::mat4 *std::_Wrap_alloc<std::allocator<_Ty>>::address(const sparky::maths::mat4 &) const': member function already defined or declared
-                 with
-                 [
-                     _Ty=const sparky::maths::mat4
-                 ]
-         c:\program files (x86)\microsoft visual studio 14.0\vc\include\xmemory0(842): note: see declaration of 'std::_Wrap_alloc<std::allocator<_Ty>>::address'
-                 with
-                 [
-                     _Ty=const sparky::maths::mat4
-                 ]
-     1>c:\program files (x86)\windows kits\8.1\include\shared\minwindef.h(130): warning C4005: 'APIENTRY': macro redefinition
-         c:\users\ynsbalci\desktop\projects\sparky engine\dependencies\glfw\include\glfw\glfw3.h(98): note: see previous definition of 'APIENTRY'
+     1>c:\users\ynsbalci\desktop\sparky-214ade80f55b89853b17d2e152b99229fc4a4bbe\sparky-core\src\maths\maths_func.h(10): warning C4244: 'return' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\ynsbalci\desktop\sparky-214ade80f55b89853b17d2e152b99229fc4a4bbe\sparky-core\src\graphics\renderable2d.h(48): warning C4244: 'initializing' : conversion from 'const float' to 'int', possible loss of data
+     1>c:\users\ynsbalci\desktop\sparky-214ade80f55b89853b17d2e152b99229fc4a4bbe\sparky-core\src\graphics\renderable2d.h(49): warning C4244: 'initializing' : conversion from 'const float' to 'int', possible loss of data
+     1>c:\users\ynsbalci\desktop\sparky-214ade80f55b89853b17d2e152b99229fc4a4bbe\sparky-core\src\graphics\renderable2d.h(50): warning C4244: 'initializing' : conversion from 'const float' to 'int', possible loss of data
+     1>c:\users\ynsbalci\desktop\sparky-214ade80f55b89853b17d2e152b99229fc4a4bbe\sparky-core\src\graphics\renderable2d.h(51): warning C4244: 'initializing' : conversion from 'const float' to 'int', possible loss of data
+     1>c:\users\ynsbalci\desktop\sparky-214ade80f55b89853b17d2e152b99229fc4a4bbe\sparky-core\main.cpp(93): warning C4018: '<' : signed/unsigned mismatch
          Generating Code...
-     1>Done Building Project "C:\Users\ynsbalci\Desktop\Projects\Sparky Engine\Sparky-core\Sparky-core.vcxproj" (Rebuild target(s)) -- FAILED.
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\ynsbalci\Desktop\Sparky-214ade80f55b89853b17d2e152b99229fc4a4bbe\bin\Debug\Sparky-core.exe" /INCREMENTAL /NOLOGO glfw3.lib glew32s.lib opengl32.lib FreeImage.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\ynsbalci\Desktop\Sparky-214ade80f55b89853b17d2e152b99229fc4a4bbe\bin\Debug\Sparky-core.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\ynsbalci\Desktop\Sparky-214ade80f55b89853b17d2e152b99229fc4a4bbe\bin\Debug\Sparky-core.lib" /MACHINE:X86 "C:\Users\ynsbalci\Desktop\Sparky-214ade80f55b89853b17d2e152b99229fc4a4bbe\bin\Debug\Intermediates\platform.obj"
+         "C:\Users\ynsbalci\Desktop\Sparky-214ade80f55b89853b17d2e152b99229fc4a4bbe\bin\Debug\Intermediates\texture-atlas.obj"
+         "C:\Users\ynsbalci\Desktop\Sparky-214ade80f55b89853b17d2e152b99229fc4a4bbe\bin\Debug\Intermediates\texture-font.obj"
+         "C:\Users\ynsbalci\Desktop\Sparky-214ade80f55b89853b17d2e152b99229fc4a4bbe\bin\Debug\Intermediates\vector.obj"
+         "C:\Users\ynsbalci\Desktop\Sparky-214ade80f55b89853b17d2e152b99229fc4a4bbe\bin\Debug\Intermediates\autofit.obj"
+         "C:\Users\ynsbalci\Desktop\Sparky-214ade80f55b89853b17d2e152b99229fc4a4bbe\bin\Debug\Intermediates\ftbase.obj"
+         "C:\Users\ynsbalci\Desktop\Sparky-214ade80f55b89853b17d2e152b99229fc4a4bbe\bin\Debug\Intermediates\ftbbox.obj"
+         "C:\Users\ynsbalci\Desktop\Sparky-214ade80f55b89853b17d2e152b99229fc4a4bbe\bin\Debug\Intermediates\ftbitmap.obj"
+         "C:\Users\ynsbalci\Desktop\Sparky-214ade80f55b89853b17d2e152b99229fc4a4bbe\bin\Debug\Intermediates\ftdebug.obj"
+         "C:\Users\ynsbalci\Desktop\Sparky-214ade80f55b89853b17d2e152b99229fc4a4bbe\bin\Debug\Intermediates\ftfstype.obj"
+         "C:\Users\ynsbalci\Desktop\Sparky-214ade80f55b89853b17d2e152b99229fc4a4bbe\bin\Debug\Intermediates\ftgasp.obj"
+         "C:\Users\ynsbalci\Desktop\Sparky-214ade80f55b89853b17d2e152b99229fc4a4bbe\bin\Debug\Intermediates\ftglyph.obj"
+         "C:\Users\ynsbalci\Desktop\Sparky-214ade80f55b89853b17d2e152b99229fc4a4bbe\bin\Debug\Intermediates\ftgxval.obj"
+         "C:\Users\ynsbalci\Desktop\Sparky-214ade80f55b89853b17d2e152b99229fc4a4bbe\bin\Debug\Intermediates\ftinit.obj"
+         "C:\Users\ynsbalci\Desktop\Sparky-214ade80f55b89853b17d2e152b99229fc4a4bbe\bin\Debug\Intermediates\ftlcdfil.obj"
+         "C:\Users\ynsbalci\Desktop\Sparky-214ade80f55b89853b17d2e152b99229fc4a4bbe\bin\Debug\Intermediates\ftmm.obj"
+         "C:\Users\ynsbalci\Desktop\Sparky-214ade80f55b89853b17d2e152b99229fc4a4bbe\bin\Debug\Intermediates\ftotval.obj"
+         "C:\Users\ynsbalci\Desktop\Sparky-214ade80f55b89853b17d2e152b99229fc4a4bbe\bin\Debug\Intermediates\ftpatent.obj"
+         "C:\Users\ynsbalci\Desktop\Sparky-214ade80f55b89853b17d2e152b99229fc4a4bbe\bin\Debug\Intermediates\ftpfr.obj"
+         "C:\Users\ynsbalci\Desktop\Sparky-214ade80f55b89853b17d2e152b99229fc4a4bbe\bin\Debug\Intermediates\ftstroke.obj"
+         "C:\Users\ynsbalci\Desktop\Sparky-214ade80f55b89853b17d2e152b99229fc4a4bbe\bin\Debug\Intermediates\ftsynth.obj"
+         "C:\Users\ynsbalci\Desktop\Sparky-214ade80f55b89853b17d2e152b99229fc4a4bbe\bin\Debug\Intermediates\ftsystem.obj"
+         "C:\Users\ynsbalci\Desktop\Sparky-214ade80f55b89853b17d2e152b99229fc4a4bbe\bin\Debug\Intermediates\fttype1.obj"
+         "C:\Users\ynsbalci\Desktop\Sparky-214ade80f55b89853b17d2e152b99229fc4a4bbe\bin\Debug\Intermediates\ftwinfnt.obj"
+         "C:\Users\ynsbalci\Desktop\Sparky-214ade80f55b89853b17d2e152b99229fc4a4bbe\bin\Debug\Intermediates\ftxf86.obj"
+         "C:\Users\ynsbalci\Desktop\Sparky-214ade80f55b89853b17d2e152b99229fc4a4bbe\bin\Debug\Intermediates\bdf.obj"
+         "C:\Users\ynsbalci\Desktop\Sparky-214ade80f55b89853b17d2e152b99229fc4a4bbe\bin\Debug\Intermediates\ftcache.obj"
+         "C:\Users\ynsbalci\Desktop\Sparky-214ade80f55b89853b17d2e152b99229fc4a4bbe\bin\Debug\Intermediates\cff.obj"
+         "C:\Users\ynsbalci\Desktop\Sparky-214ade80f55b89853b17d2e152b99229fc4a4bbe\bin\Debug\Intermediates\type1cid.obj"
+         "C:\Users\ynsbalci\Desktop\Sparky-214ade80f55b89853b17d2e152b99229fc4a4bbe\bin\Debug\Intermediates\ftgzip.obj"
+         "C:\Users\ynsbalci\Desktop\Sparky-214ade80f55b89853b17d2e152b99229fc4a4bbe\bin\Debug\Intermediates\ftlzw.obj"
+         "C:\Users\ynsbalci\Desktop\Sparky-214ade80f55b89853b17d2e152b99229fc4a4bbe\bin\Debug\Intermediates\pcf.obj"
+         "C:\Users\ynsbalci\Desktop\Sparky-214ade80f55b89853b17d2e152b99229fc4a4bbe\bin\Debug\Intermediates\pfr.obj"
+         "C:\Users\ynsbalci\Desktop\Sparky-214ade80f55b89853b17d2e152b99229fc4a4bbe\bin\Debug\Intermediates\psaux.obj"
+         "C:\Users\ynsbalci\Desktop\Sparky-214ade80f55b89853b17d2e152b99229fc4a4bbe\bin\Debug\Intermediates\pshinter.obj"
+         "C:\Users\ynsbalci\Desktop\Sparky-214ade80f55b89853b17d2e152b99229fc4a4bbe\bin\Debug\Intermediates\psmodule.obj"
+         "C:\Users\ynsbalci\Desktop\Sparky-214ade80f55b89853b17d2e152b99229fc4a4bbe\bin\Debug\Intermediates\raster.obj"
+         "C:\Users\ynsbalci\Desktop\Sparky-214ade80f55b89853b17d2e152b99229fc4a4bbe\bin\Debug\Intermediates\sfnt.obj"
+         "C:\Users\ynsbalci\Desktop\Sparky-214ade80f55b89853b17d2e152b99229fc4a4bbe\bin\Debug\Intermediates\smooth.obj"
+         "C:\Users\ynsbalci\Desktop\Sparky-214ade80f55b89853b17d2e152b99229fc4a4bbe\bin\Debug\Intermediates\truetype.obj"
+         "C:\Users\ynsbalci\Desktop\Sparky-214ade80f55b89853b17d2e152b99229fc4a4bbe\bin\Debug\Intermediates\type1.obj"
+         "C:\Users\ynsbalci\Desktop\Sparky-214ade80f55b89853b17d2e152b99229fc4a4bbe\bin\Debug\Intermediates\type42.obj"
+         "C:\Users\ynsbalci\Desktop\Sparky-214ade80f55b89853b17d2e152b99229fc4a4bbe\bin\Debug\Intermediates\winfnt.obj"
+         "C:\Users\ynsbalci\Desktop\Sparky-214ade80f55b89853b17d2e152b99229fc4a4bbe\bin\Debug\Intermediates\main.obj"
+         "C:\Users\ynsbalci\Desktop\Sparky-214ade80f55b89853b17d2e152b99229fc4a4bbe\bin\Debug\Intermediates\BatchRenderer2D.obj"
+         "C:\Users\ynsbalci\Desktop\Sparky-214ade80f55b89853b17d2e152b99229fc4a4bbe\bin\Debug\Intermediates\buffer.obj"
+         "C:\Users\ynsbalci\Desktop\Sparky-214ade80f55b89853b17d2e152b99229fc4a4bbe\bin\Debug\Intermediates\indexbuffer.obj"
+         "C:\Users\ynsbalci\Desktop\Sparky-214ade80f55b89853b17d2e152b99229fc4a4bbe\bin\Debug\Intermediates\vertexarray.obj"
+         "C:\Users\ynsbalci\Desktop\Sparky-214ade80f55b89853b17d2e152b99229fc4a4bbe\bin\Debug\Intermediates\label.obj"
+         "C:\Users\ynsbalci\Desktop\Sparky-214ade80f55b89853b17d2e152b99229fc4a4bbe\bin\Debug\Intermediates\group.obj"
+         "C:\Users\ynsbalci\Desktop\Sparky-214ade80f55b89853b17d2e152b99229fc4a4bbe\bin\Debug\Intermediates\layer.obj"
+         "C:\Users\ynsbalci\Desktop\Sparky-214ade80f55b89853b17d2e152b99229fc4a4bbe\bin\Debug\Intermediates\tilelayer.obj"
+         "C:\Users\ynsbalci\Desktop\Sparky-214ade80f55b89853b17d2e152b99229fc4a4bbe\bin\Debug\Intermediates\simple2drenderer.obj"
+         "C:\Users\ynsbalci\Desktop\Sparky-214ade80f55b89853b17d2e152b99229fc4a4bbe\bin\Debug\Intermediates\shader.obj"
+         "C:\Users\ynsbalci\Desktop\Sparky-214ade80f55b89853b17d2e152b99229fc4a4bbe\bin\Debug\Intermediates\sprite.obj"
+         "C:\Users\ynsbalci\Desktop\Sparky-214ade80f55b89853b17d2e152b99229fc4a4bbe\bin\Debug\Intermediates\static_sprite.obj"
+         "C:\Users\ynsbalci\Desktop\Sparky-214ade80f55b89853b17d2e152b99229fc4a4bbe\bin\Debug\Intermediates\texture.obj"
+         "C:\Users\ynsbalci\Desktop\Sparky-214ade80f55b89853b17d2e152b99229fc4a4bbe\bin\Debug\Intermediates\window.obj"
+         "C:\Users\ynsbalci\Desktop\Sparky-214ade80f55b89853b17d2e152b99229fc4a4bbe\bin\Debug\Intermediates\mat4.obj"
+         "C:\Users\ynsbalci\Desktop\Sparky-214ade80f55b89853b17d2e152b99229fc4a4bbe\bin\Debug\Intermediates\vec2.obj"
+         "C:\Users\ynsbalci\Desktop\Sparky-214ade80f55b89853b17d2e152b99229fc4a4bbe\bin\Debug\Intermediates\vec3.obj"
+         "C:\Users\ynsbalci\Desktop\Sparky-214ade80f55b89853b17d2e152b99229fc4a4bbe\bin\Debug\Intermediates\vec4.obj"
+     1>LINK : warning LNK4098: defaultlib 'MSVCRT' conflicts with use of other libs; use /NODEFAULTLIB:library
+     1>LINK : warning LNK4098: defaultlib 'LIBCMT' conflicts with use of other libs; use /NODEFAULTLIB:library
+     1>glew32s.lib(glew.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'glew32s.lib(glew.obj)' or at 'C:\Users\ynsbalci\Desktop\Sparky-214ade80f55b89853b17d2e152b99229fc4a4bbe\bin\Debug\vc120.pdb'; linking object as if no debug info
+         Sparky-core.vcxproj -> C:\Users\ynsbalci\Desktop\Sparky-214ade80f55b89853b17d2e152b99229fc4a4bbe\bin\Debug\Sparky-core.exe
+     1>Done Building Project "C:\Users\ynsbalci\Desktop\Sparky-214ade80f55b89853b17d2e152b99229fc4a4bbe\Sparky-core\Sparky-core.vcxproj" (Build target(s)).
 
-Build FAILED.
+Build succeeded.
 
-Time Elapsed 00:00:19.15
+Time Elapsed 00:00:38.72

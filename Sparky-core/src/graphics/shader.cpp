@@ -19,8 +19,8 @@ namespace sparky { namespace graphics {
 		GLuint vertex = glCreateShader(GL_VERTEX_SHADER);
 		GLuint fragment = glCreateShader(GL_FRAGMENT_SHADER);
 
-		std::string vertSourceString = FileUtils::read_file(m_VertPath);
-		std::string fragSourceString = FileUtils::read_file(m_FragPath);
+		std::string vertSourceString = read_file(m_VertPath);
+		std::string fragSourceString = read_file(m_FragPath);
 
 		const char* vertSource = vertSourceString.c_str();
 		const char* fragSource = fragSourceString.c_str();
@@ -78,9 +78,19 @@ namespace sparky { namespace graphics {
 		glUniform1f(getUniformLocation(name), value);
 	}
 
+	void Shader::setUniform1fv(const GLchar* name, float* value, int count)
+	{
+		glUniform1fv(getUniformLocation(name), count, value);
+	}
+
 	void Shader::setUniform1i(const GLchar* name, int value)
 	{
 		glUniform1i(getUniformLocation(name), value);
+	}
+
+	void Shader::setUniform1iv(const GLchar* name, int* value, int count)
+	{
+		glUniform1iv(getUniformLocation(name), count, value);
 	}
 
 	void Shader::setUniform2f(const GLchar* name, const maths::vec2& vector)
